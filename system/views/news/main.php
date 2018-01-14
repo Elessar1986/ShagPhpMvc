@@ -1,3 +1,3 @@
 <div class="container">
-    <h2>Main page context</h2>
+    <h2>News page context</h2>
 </div>

@@ -7,20 +7,17 @@
  */
 
 /**
- * Description of MainController
+ * Description of NewsController
  *
  * @author student
  */
-class MainController {
+class NewsController {
     
     
-    
-    public function actionIndex(){
+    public function actionList(){
         
         global $context, $title;
-        
-        $context = "system/views/main/main.php";
-        $title = "Main Page";
+        $context = "system/views/news/main.php";
+        $title = "News Page";
     }
-
 }
