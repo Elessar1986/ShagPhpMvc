@@ -44,5 +44,7 @@ class Router {
         require ROOT.'/system/controllers/'.$controller.'.php';
         $ctrl_obj = new $controller();
         $ctrl_obj->$method();
+        
+        //test
     }
 }
